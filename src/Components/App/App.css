@@ -1,0 +1,32 @@
+.main{
+   
+        width: 650px;
+        height: max-content;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid #293264;
+    background-color: #F5F7FB;
+    border-radius: 5px;
+    
+}
+.start{
+    width:250px ;
+    height: 250px;
+    margin: 0 auto;
+    
+    margin-top: 200px;
+    background-color: #F5F7FB;
+}
+h2{
+    color:#293264 ;
+}
+h4{
+    color: #293264;
+}
+.start-btn{
+width: 193px;
+height: 52px;
+border-radius: 15px;
+background-color: #4D5B9E;
+color: WHITE;
+}

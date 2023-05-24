@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.opt{
+margin: 0;
+  padding: 0.4rem;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13.24px;
+text-align: center;
+color: #293264;
+opacity: 0.7;
+  
+}
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    visibility: hidden;
+    margin: 0;
+}
+#onewe{
+    margin: 0;
+    border-radius:8px;
+    width:max-content;
+    border: 1px solid rgba(77, 91, 158, 0.7); 
+    padding: 0.1em 1em;
+    text-shadow: .5px .2px black;
+  }
+
+  .green{
+background-color: #94D7A2;
+  }
+  .red{
+    opacity: 0.7;
+    background-color: pink;
+  }
+  input[type="radio"]:checked ~ #onewe{
+    
+    background-color:#D6DBF5;
+    color:#F5F7FB;
+  }
+  
